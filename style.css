@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+
+
+
+
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: tomato;
+}
+hr{
+    color: rgb(0, 195, 255);
+}
+h1{
+    border: 3px solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: tomato;
+    padding: 10px;
+}
+/* Classes*/
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: baseline;
+    align-content: baseline;
+    flex: 1 1 auto;
+    
+
+}
+.box{
+    
+    text-align: center;  
+    border: 3px solid tomato;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    padding: 10px;
+    
+
+}
+.divhead{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+
+
+
+/*ID´s*/
+
+#div1{
+    font-family: sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: chartreuse;
+}
+#div2{
+    font-family: "Jacquard 12";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    color: rgb(197, 5, 255);
+}
+#div3{
+    font-family: "Sevillana";
+    font-weight: 400;
+    font-style: normal;
+    font-size: em;
+    color: rgb(255, 187, 0);
+}
+
