@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana;
+    font-size: 1em;
+    
+}
+
+.text{
+    background-color: rgb(189, 189, 189);
+    border-bottom: 2px solid orangered;
+    display: flex;
+    align-content: center;
+    padding-inline: 20px;
+
+}
+h1{
+    border-left: 40px solid orangered;
+    border-bottom: 3px solid orangered;
+    padding-left: 15px;
+    margin: 0px;
+    color: rgb(7, 65, 255);
+    font-family:  monospace;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
+h2{
+    margin: 0px;
+    border-bottom: 2px solid orangered;
+    padding-left: 15px;
+    padding-bottom: 1px;
+    color: rgb(7, 65, 255);
+    font-weight: normal;
+    
+}
+#letterSpacing{
+    letter-spacing: 0.3em;
+}
