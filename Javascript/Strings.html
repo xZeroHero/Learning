@@ -36,7 +36,21 @@
         let at = text4.at(6).toLowerCase();
         document.write(`The character at index 4 is: ${at}<br>`);
 
-        let
+        /*  The [] operator returns the character at a specified index 
+            (position) in a string. */
+        let text5 = `Hello World!`;
+        document.write(`The character at index 4 is: ${text5[1].toUpperCase()}<br>`);
+
+        /*  The at() method returns the character at a specified index 
+            (position) in a string. 
+            Index -1 is the last character in the string.*/
+        let text6 = `Hello World!`;
+        document.write(`The character at index -1 is: ${text6.at(-1)}<br>`);
+
+        /*  The at() method is a new addition to JavaScript.
+            It allows the use of negative indexes while charAt() do not.
+            Now you can use myString.at(-2) */
+
 
 
 
