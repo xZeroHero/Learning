@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LearnStart</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" type="image/webp" href="../Favicon/javascript-logo.webp">
     <script>
@@ -20,7 +20,26 @@
         let y = 7;
         let ergebnis = x * y;
 
-        document.write(`Das Ergebnis von ${x} * ${y} ist ${ergebnis}.<br>`);
+        document.write(`Das Ergebnis von ${x} * ${y} ist ${ergebnis}<br>`);
+        document.write(`Das Ergebnis von ${x} * ${y} ist ${x * y}<br>`);
+        document.write(`${x} % ${y} = ${x % y}.<br>`);
+        let z = 14;
+        let v = 3.14;
+        document.write(`${z} % ${v} = ${z % v}<br>`);
+
+        /* The toFixed() method converts a number into a string, keeping a specified number of decimals. */
+        document.write(`${z} % ${v} = ${(z % v).toFixed(2)}<br>`);
+
+        /* The toPrecision() method formats a number to a specified length. */
+        document.write(`${z} % ${v} = ${(z % v).toPrecision(5)}<br>`);
+
+        /* The toString() method returns a number as a string. */
+        document.write(`${z} % ${v} = ${(z % v).toString()}<br>`);
+        let output = (z % v).toString();
+        document.write(`Output: ${output}<br>Type: ${typeof output}<br>`);
+
+
+        document.write(`${z<v} <br>`);
 
 
 
