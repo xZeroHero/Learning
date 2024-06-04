@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/webp" href="../Favicon/javascript-logo.webp">
+    <script>
+
+
+        function stringLenght(string) {
+            let lenght = string.length;
+            document.write(`Der String \"${string}\" ist ${lenght} Zeichen lang <br>`);
+            if (lenght >=10) {
+                document.write(`Das 3.Zeichen ist \"${string.charAt(2)}\", <br> Das 5. Zeichen ist \"${string.charAt(4)}\"<br> und das 10. Zeichen ist \"${string.charAt(9)}\"<br><hr>`);
+            } else if (lenght >=5) {
+                document.write(`Das 3.Zeichen ist \"${string.charAt(2)}\"<br> und das 5. Zeichen ist \"${string.charAt(4)}\" <br><hr>`);
+            } else if (lenght >=3) {
+                document.write(`Das 3.Zeichen ist \"${string.charAt(2)}\"<br><hr>`);
+            } else {
+                document.write(`Der String ist zu kurz <br><hr>`);
+            }
+        }
+        stringLenght("Hi");
+        stringLenght("Hi Welt!");
+        stringLenght("Hallo");
+        stringLenght("Hallo große Welt!");
+        stringLenght("Test");
+        stringLenght("UND");
+        stringLenght("")
+        
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
