@@ -37,12 +37,26 @@
             } else if (n == 1) {
                 return 1;
             } else {
-                return formula(n - 1) + formula(n - 2);
+                return n + formula(n - 1);
             }
             
         }
 
-        document.write(` 10+9+7+6+5... is ${formula(10)}`);
+        document.write(` 10+9+7+6+5... is ${formula(10)} <hr>`);
+
+        function factorial(n) {
+            if (n < 0) {
+                return `Invalid input`;
+            } else if (n == 0) {
+                return 1;
+            } else {
+                return n * factorial(n - 1);
+            }
+        }
+        
+        document.write(` 5! is ${factorial(5)} <hr>`);
+
+
 
 
         
