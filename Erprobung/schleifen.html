@@ -50,8 +50,20 @@
         i +=2;
     }
     document.write(`End of loop - +2 <hr>`);
-        
 
+
+    array = Array.from({length: 10}, (x, i) => i + 1);
+    document.write(`Array: ${array} <hr>`);
+
+    for (let i = 0; i < array.length; i++) {
+        document.write(`i = ${array[i]} <br>`);
+    }
+    document.write(`End of for loop with array <hr>`);
+
+    for (i in array) {
+        document.write(`i = ${array[i]} <br>`);
+    }
+    document.write(`End of for in loop with array <hr>`);
          
  
  
