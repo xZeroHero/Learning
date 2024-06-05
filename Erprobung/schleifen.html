@@ -19,14 +19,18 @@
             }
             document.write(`End of loop - lettersInString() <hr>`);
         }
-        lettersInString("Das ist ein kleiner Beispieltext.");
+        /* lettersInString("Das ist ein kleiner Beispieltext."); */
 
         i = 0;
         while (i < stringLenght) {
-                document.write(`i = ${i} | Buchstabe = ${string.charAt(i)} <br>`);
+            if (string[i] == " ") {
+                document.write(`i = ${i} | Buchstabe = . <br>`); 
+            } else {
+                document.write(`i = ${i} | Buchstabe = ${string[i]} <br>`);
+            }
                 i++;
         }
-        document.write(`End of loop - string.charAt() <hr>`);
+        document.write(`End of loop - Space = .  <hr>`);
 
 
         for (a in string) {
