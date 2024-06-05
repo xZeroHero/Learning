@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schleifen</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/webp" href="../Favicon/javascript-logo.webp">
+    <script>
+        let i = 0
+        while (i <= 20) {
+            if (i % 2 == 0) {
+                document.write(`i = ${i} <br>`);}
+             i++;
+         }
+         i = 0;
+
+         document.write(`End of loop - even <hr>`);
+
+         while (i <= 20) {
+            if (i % 2 == 1) {
+                document.write(`i = ${i} <br>`);}
+             i++;
+         }
+         document.write(`End of loop - odd <hr>`);
+
+        i = 0;
+
+        while (i <= 20) {
+            document.write(`i = ${i} <br>`);
+            i += 6;
+        }
+        document.write(`End of loop - +6 <hr>`);
+
+        i = 0;
+
+        while (i <= 20) {
+            document.write(`i = ${i} <br>`);
+            if (i == 9) {
+                break;
+            }
+            i += 3;
+        }
+    document.write(`End of loop - +3 | Break if i == 9 <hr>`);
+        
+
+         
+ 
+ 
+     </script>
+</head>
+<body>
+    
+</body>
+</html>
