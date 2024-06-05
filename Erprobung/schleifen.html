@@ -8,6 +8,33 @@
     <link rel="icon" type="image/webp" href="../Favicon/javascript-logo.webp">
     <script>
         let i = 0
+        let string = "Das ist ein kleiner Beispieltext."
+        stringLenght = string.length
+
+        function lettersInString(s) {
+            sLenght = s.length
+            while (i < sLenght) {
+                document.write(`i = ${i} | Buchstabe = ${s[i]} <br>`);
+                i++;
+            }
+            document.write(`End of loop - lettersInString() <hr>`);
+        }
+
+        lettersInString("Das ist ein kleiner Beispieltext.");
+
+
+        for (a in string) {
+            document.write(`a = ${a} | Buchstabe = ${string[a]} <br>`);
+        }
+        document.write(`End of for in loop - string <hr>`);
+
+        for (let a = 0; a < stringLenght; a++) {
+            document.write(`a = ${a} | Buchstabe = ${string[a]} <br>`);
+        }
+        document.write(`End of for loop - string <hr>`);
+
+        i = 0;
+
         while (i <= 20) {
             if (i % 2 == 0) {
                 document.write(`i = ${i} <br>`);}
@@ -60,10 +87,10 @@
     }
     document.write(`End of for loop with array <hr>`);
 
-    for (i in array) {
-        document.write(`i = ${array[i]} <br>`);
+    for (n in array) {
+        document.write(`i = ${array[n]} <br>`);
     }
-    document.write(`End of for in loop with array <hr>`);
+    document.write(`End of for in loop with array (for n in array)<hr>`);
          
  
  
